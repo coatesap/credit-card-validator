@@ -1,7 +1,7 @@
 Credit Card Class
 =================
 
-Simple PHP class for validating a credit/debit card before passing to a payment gateway.
+Simple PHP class for validating a credit/debit card details before passing to a payment gateway.
 
 Validation Checks
 -----------------
