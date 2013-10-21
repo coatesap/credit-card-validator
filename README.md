@@ -23,7 +23,10 @@ $card_details = array(
 $card = new Card();
 $card->populate($card_details);
 
-if (!$card->is_valid($message)) die($message);
+if (!$card->is_valid($message)) {
+    // show error message
+}
 
+// get the prepped, validated card data as an array
 $card_data = $card->to_array();
 ```
