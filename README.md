@@ -3,11 +3,6 @@ Credit Card Class
 
 Simple PHP class for validating a credit/debit card details before passing to a payment gateway.
 
-Validation Checks
------------------
-- That the card hasn't expired
-- A valid CVC/CV2 security code has been supplied
-- The card number passes the Luhn check
 
 Example Usage
 -------------
@@ -30,3 +25,16 @@ if (!$card->is_valid($message)) {
 // get the prepped, validated card data as an array
 $card_data = $card->to_array();
 ```
+
+Data preparation
+----------------
+- Non-numeric characters, including spaces removed from:
+- - Card number
+- - CVC/CV2
+- - Expiry date parts
+
+Validation Checks
+-----------------
+- That the card hasn't expired
+- A valid CVC/CV2 security code has been supplied
+- The card number passes the Luhn check
