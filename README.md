@@ -1,7 +1,7 @@
 Credit Card Class
 =================
 
-Simple PHP class for validating a credit/debit card details before passing to a payment gateway.
+Simple PHP class for preparing and validating credit/debit card details. Typically this takes place before they are passed to a payment gateway for processing.
 
 
 Example Usage
@@ -28,13 +28,14 @@ $card_data = $card->to_array();
 
 Data preparation
 ----------------
-- Non-numeric characters, including spaces removed from:
-- - Card number
-- - CVC/CV2
-- - Expiry date parts
+This class does some simple preparation of your card data. This includes removing non-numeric characters, including spaces, from:
+- The card number
+- The CVC/CV2 value
+- The card expiry date
 
 Validation Checks
 -----------------
+This class also checks:
 - That the card hasn't expired
 - A valid CVC/CV2 security code has been supplied
 - The card number passes the Luhn check
