@@ -20,10 +20,12 @@ $card->populate($card_details);
 
 if (!$card->is_valid($message)) {
     // show error message
+    echo 'There is a problem with your card details: ' . $message;
+} else {
+    // get the prepped, validated card data as an array
+    $card_data = $card->to_array();
+    // send $card_data to payment gateway
 }
-
-// get the prepped, validated card data as an array
-$card_data = $card->to_array();
 ```
 
 Data preparation
