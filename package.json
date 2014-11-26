@@ -1,6 +1,6 @@
 {
   "name": "credit-card-class",
-  "version": "0.0.1",
+  "version": "dev",
   "description": "Credit Card Class =================",
   "main": "index.js",
   "scripts": {
