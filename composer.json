@@ -6,6 +6,6 @@
             "email": "rafael.cunha@topdeals.com.br"
         }
     ],
-    "minimum-stability": "0.0.1",
+    "minimum-stability": "dev",
     "require": {}
 }
