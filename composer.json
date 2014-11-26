@@ -1,0 +1,11 @@
+{
+    "name": "silici0/credit-card-class",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "rafael.cunha@topdeals.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
