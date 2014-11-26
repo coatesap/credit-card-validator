@@ -1,4 +1,5 @@
 <?php 
+namespace silici0\Card;
 
 class Card {
 	
