@@ -14,10 +14,21 @@ class Card {
 	
 	public function has_expired()
 	{
-		$date_string = $this->expiry_year . '-' . ($this->expiry_month+1) . '-01 00:00:00';
-		$expiry_date = DateTime::createFromFormat('Y-m-d H:i:s', $date_string);
-		$today = new DateTime();
-		return ($today >= $expiry_date) ? true : false ;
+		if (class_exists('DateTime'))
+		{
+			$date_string = $this->expiry_year . '-' . ($this->expiry_month+1) . '-01 00:00:00';
+			$expiry_date = DateTime::createFromFormat('Y-m-d H:i:s', $date_string);
+			$today = new DateTime();
+			return ($today >= $expiry_date) ? true : false ;	
+		} 
+		else
+		{
+			$card = mktime(0, 0, 0, $this->expiry_month, '01', $this->expiry_year);
+			$today = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
+			$cont = $card-$today;
+			return ($cont < 0) ? true : false ;
+		}
+		
 	}
 	
 	public function populate($data)
