@@ -14,7 +14,7 @@ class Card {
 	
 	public function has_expired()
 	{
-		if (class_exists('DateTime'))
+		if (version_compare(phpversion(), '5.2.0', '>='))
 		{
 			$date_string = $this->expiry_year . '-' . ($this->expiry_month+1) . '-01 00:00:00';
 			$expiry_date = DateTime::createFromFormat('Y-m-d H:i:s', $date_string);
