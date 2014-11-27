@@ -17,8 +17,8 @@ class Card {
 		if (version_compare(phpversion(), '5.2.0', '>='))
 		{
 			$date_string = $this->expiry_year . '-' . ($this->expiry_month+1) . '-01 00:00:00';
-			$expiry_date = DateTime::createFromFormat('Y-m-d H:i:s', $date_string);
-			$today = new DateTime();
+			$expiry_date = \DateTime::createFromFormat('Y-m-d H:i:s', $date_string);
+			$today = new \DateTime();
 			return ($today >= $expiry_date) ? true : false ;	
 		} 
 		else
