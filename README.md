@@ -28,6 +28,19 @@ if (!$card->is_valid($message)) {
 }
 ```
 
+## Installation
+
+The credit card class can be installed via [Composer](http://getcomposer.org/). To install, simply add it
+to your `composer.json` file:
+
+```json
+{
+    "require": {
+        "coatesap/card": "dev-master"
+    }
+}
+```
+
 Data preparation
 ----------------
 This class does some simple preparation of your card data. This includes removing non-numeric characters, including spaces, from:
