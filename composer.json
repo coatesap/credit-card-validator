@@ -1,0 +1,19 @@
+{
+    "name": "silici0/credit-card-class",
+    "authors": [
+        {
+            "name": "Rafael Cunha",
+            "email": "silici0@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "/"
+        ],
+        "psr-0": {
+            "Silici0\\Card\\": "/"
+        }
+    }
+}

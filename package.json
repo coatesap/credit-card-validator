@@ -1,0 +1,19 @@
+{
+  "name": "credit-card-class",
+  "version": "dev",
+  "description": "Credit Card Class =================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silici0/credit-card-class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silici0/credit-card-class/issues"
+  },
+  "homepage": "https://github.com/silici0/credit-card-class"
+}
