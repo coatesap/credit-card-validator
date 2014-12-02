@@ -113,8 +113,8 @@ class Card {
 	public function to_array()
 	{
 		$arr = array();
-		$reflection = new ReflectionObject($this);
-		$properties = $reflection->getProperties(ReflectionProperty::IS_PUBLIC);
+		$reflection = new \ReflectionObject($this);
+		$properties = $reflection->getProperties(\ReflectionProperty::IS_PUBLIC);
 		foreach ($properties as $obj) {
 			$arr[$obj->name] = $this->{$obj->name};	
 		}
