@@ -1,5 +1,5 @@
 <?php 
-namespace Coatesap\Card;
+namespace Coatesap\Payment;
 
 class Card {
 	

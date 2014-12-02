@@ -15,7 +15,7 @@
             "/"
         ],
         "psr-0": {
-            "Coatesap\\Card\\": "/"
+            "Coatesap\\Payment\\": "/"
         }
     }
 }
