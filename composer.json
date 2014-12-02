@@ -1,6 +1,7 @@
 {
     "name": "coatesap/credit-card-validator",
     "description": "A simple PHP class for validating credit/debit card details",
+    "homepage": "https://github.com/coatesap/credit-card-validator",
     "authors": [
         {
             "name": "Andy Coates",
@@ -8,7 +9,6 @@
         }
     ],
     "license": "MIT",
-    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "classmap": [
