@@ -1,9 +1,9 @@
 {
-    "name": "silici0/credit-card-class",
+    "name": "coatesap/credit-card-class",
     "authors": [
         {
-            "name": "Rafael Cunha",
-            "email": "silici0@gmail.com"
+            "name": "Andy Coates",
+            "email": "andycoatz@gmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -13,7 +13,7 @@
             "/"
         ],
         "psr-0": {
-            "Silici0\\Card\\": "/"
+            "Coatesap\\Card\\": "/"
         }
     }
 }

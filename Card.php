@@ -1,5 +1,5 @@
 <?php 
-namespace silici0\Card;
+namespace Coatesap\Card;
 
 class Card {
 	

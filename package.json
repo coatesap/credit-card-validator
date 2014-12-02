@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/silici0/credit-card-class.git"
+    "url": "https://github.com/coatesap/credit-card-class.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/silici0/credit-card-class/issues"
+    "url": "https://github.com/coatesap/credit-card-class/issues"
   },
-  "homepage": "https://github.com/silici0/credit-card-class"
+  "homepage": "https://github.com/coatesap/credit-card-class"
 }
