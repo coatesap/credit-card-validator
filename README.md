@@ -1,7 +1,7 @@
-Credit Card Class
-=================
+Credit Card Validator
+=====================
 
-Simple PHP class for preparing and validating credit/debit card details. Typically this takes place before they are passed to a payment gateway for processing.
+A simple PHP class for preparing and validating credit/debit card details. Typically this takes place before they are passed to a payment gateway for processing.
 
 
 ## Example Usage
