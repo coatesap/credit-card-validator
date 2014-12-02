@@ -8,6 +8,8 @@ Example Usage
 -------------
 
 ```PHP
+require 'vendor/autoload.php';
+
 $card_details = array(
 	'number' =>'4929000000006', 
 	'expiry_year' => 2013,
@@ -15,7 +17,7 @@ $card_details = array(
 	'code' => '123'
 );
 
-$card = new Card();
+$card = new Coatesap\Payment\Card();
 $card->populate($card_details);
 
 if (!$card->is_valid($message)) {
