@@ -10,11 +10,8 @@
     ],
     "license": "MIT",
     "autoload": {
-        "classmap": [
-            "/"
-        ],
         "psr-0": {
-            "Coatesap\\Payment\\": "/"
+            "Coatesap": "src/"
         }
     }
 }
