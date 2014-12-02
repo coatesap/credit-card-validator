@@ -1,5 +1,5 @@
 {
-    "name": "coatesap/credit-card-class",
+    "name": "coatesap/credit-card-validator",
     "description": "A simple PHP class for validating credit/debit card details",
     "authors": [
         {

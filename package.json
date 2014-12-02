@@ -1,19 +1,19 @@
 {
-  "name": "credit-card-class",
+  "name": "credit-card-validator",
   "version": "dev",
-  "description": "Credit Card Class =================",
+  "description": "Credit Card Validator =================",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/coatesap/credit-card-class.git"
+    "url": "https://github.com/coatesap/credit-card-validator.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/coatesap/credit-card-class/issues"
+    "url": "https://github.com/coatesap/credit-card-validator/issues"
   },
-  "homepage": "https://github.com/coatesap/credit-card-class"
+  "homepage": "https://github.com/coatesap/credit-card-validator"
 }

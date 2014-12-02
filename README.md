@@ -36,7 +36,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "coatesap/card": "dev-master"
+        "coatesap/credit-card-validator": "dev-master"
     }
 }
 ```
