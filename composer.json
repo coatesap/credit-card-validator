@@ -1,5 +1,6 @@
 {
     "name": "coatesap/credit-card-class",
+    "description": "A simple PHP class for validating credit/debit card details",
     "authors": [
         {
             "name": "Andy Coates",
