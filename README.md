@@ -20,7 +20,7 @@ $card = new Coatesap\Payment\Card();
 $card->populate($cardDetails);
 
 if (!$card->isValid($message)) {
-    // show error message
+    // show error message (set by reference)
     echo 'There is a problem with your card details: ' . $message;
 } else {
     // get the prepped, validated card data as an array
