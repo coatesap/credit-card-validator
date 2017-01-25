@@ -1,11 +1,8 @@
 {
   "name": "credit-card-validator",
   "version": "dev",
-  "description": "Credit Card Validator =================",
+  "description": "Credit Card details validator",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/coatesap/credit-card-validator.git"
